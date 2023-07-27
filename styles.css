@@ -43,6 +43,7 @@ body{
 }
 
 @media (max-width: 490px) {
+
     #newtask{
         display: flex;
         flex-direction: column;
@@ -55,9 +56,12 @@ body{
     #tasks-list{
         text-align: center;
     }
-    
+}
 
-
+@media (max-width:375px) {
+   .task{
+    max-width: 280px;
+   }
 }
 
 
