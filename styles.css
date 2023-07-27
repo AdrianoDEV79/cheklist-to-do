@@ -19,12 +19,13 @@ body{
 .container{
     position: relative;
     width: 300px;
-    min-width: 450px;
+    min-width: 370px;
     min-height: 100px;
     margin-top: 20px;
     background: white;
     border-bottom: 10px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -43,17 +44,20 @@ body{
 
 @media (max-width: 490px) {
     #newtask{
-        display: block;
-        /* flex-direction: column; */
+        display: flex;
+        flex-direction: column;
     }  
     
-    .container{
-        max-width: 50%;
+    .task{
+        width: 350px;
     }
-
-    input{
-
+    
+    #tasks-list{
+        text-align: center;
     }
+    
+
+
 }
 
 
@@ -97,7 +101,6 @@ body{
     /* padding: 30px 20px; */
     margin-top: 10px;
     border-radius: 10px;
-    width: 400px;
     position: relative;
     
 }
@@ -105,6 +108,7 @@ body{
 .task{
     background-color: #c5e1e6;
     height: 40px;
+    width: 350px;
     margin-bottom: 8px;
     /* padding: 5px 10px; */
     display: flex;
