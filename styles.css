@@ -11,7 +11,7 @@ span{
     color:#0d0c5a;
 }
 body {
-    background: #0d0c5a;
+    background: #08022c;
     color: #0a0404;
     font-family: Lato, sans-serif;
   }
@@ -31,7 +31,7 @@ body {
   }
   .top{
     background-color: rgb(12, 77, 143);
-    width: 320px;
+    width: 375px;
     margin-left: -10px;
     margin-top: -10px;
     padding: 10px;
@@ -46,7 +46,7 @@ body {
   }
   .container {
     display: block;
-    width: 320px;
+    width: 375px;
     margin: 30px auto 0;
     background-color: #ffffff;
     padding: 10px;
