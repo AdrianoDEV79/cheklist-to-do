@@ -16,7 +16,19 @@ body {
     font-family: Lato, sans-serif;
 }
 
-  @media (max-width:450px) {
+@media (max-width: 490px) {
+    body{
+        margin-top: -15px;
+    }
+    .container{
+        max-width:100vw;
+       }
+       .top{
+        max-width: 100vw;
+       }
+    
+}
+/* @media (max-width:450px) {
     body{
         margin-top: -20px;
     }
@@ -24,12 +36,27 @@ body {
 
   @media (max-width:449px) {
    .container{
-    width: 300px;
+    max-width: 300px;
    }
    .top{
-    width: 300px;
+    max-width: 300px;
    }
   }
+@media (max-width:375px) {
+   .task{
+    max-width: 280px;
+   }
+   .container{
+    max-width: 280px;
+   }
+   .top{
+    max-width: 280px;;
+   }
+} */
+
+  
+
+  
 
   p{
     display: flex;
