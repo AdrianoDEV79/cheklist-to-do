@@ -14,13 +14,21 @@ body {
     background: #08022c;
     color: #0a0404;
     font-family: Lato, sans-serif;
-  }
+}
 
-  @media (max-width:400px) {
+  @media (max-width:450px) {
     body{
         margin-top: -20px;
     }
-    
+  }
+
+  @media (max-width:449px) {
+   .container{
+    width: 350px;
+   }
+   .top{
+    width: 350px;
+   }
   }
 
   p{
@@ -31,7 +39,7 @@ body {
   }
   .top{
     background-color: rgb(12, 77, 143);
-    width: 375px;
+    width: 450px;
     margin-left: -10px;
     margin-top: -10px;
     padding: 10px;
@@ -46,8 +54,9 @@ body {
   }
   .container {
     display: block;
-    width: 375px;
-    margin: 30px auto 0;
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 15px;
