@@ -157,10 +157,10 @@ for(var i = 0; i <  completedTasksHolder.children.length; i++) {
 
 }
  
-window.addEventListner('berforeunload', function(e){
-  e.preventDefault();
-  e.returnValue = '';
-});
+// window.addEventListner('berforeunload', function(e){
+//   e.preventDefault();
+//   e.returnValue = '';
+// });
 
 
 
